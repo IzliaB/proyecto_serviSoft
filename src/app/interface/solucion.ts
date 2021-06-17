@@ -3,4 +3,5 @@ export interface Solucion {
     title: String;
     descripcion: String;
     link: string;
+    videoUrl: string;
 }

@@ -1,24 +1,18 @@
+
+
 <body>
-    <div>
-    <app-slidebar></app-slidebar>
-    </div>
-<div class="content-container">
-  
-    <div class="container-fluid">
-            <!-- Main component for a primary marketing message or call to action -->
-            <app-navigation></app-navigation>
-  
-    </div>
-  </div>
+
 
      <div class="box">
-        <h1>Buscar Solución</h1>
+        <h1>¿Cómo puedo ayudarte?</h1>
+        <br>
+
         <form >
-            <div class="item" style="transform: translate(10em, 0px);">
-                <input type="text" class="searchInput" placeholder="Search" 
+            <div class="item" style="transform: translate(0em, 0px);">
+                <input type="text" class="searchInput" placeholder="" 
                   [(ngModel)]="searchInput" name="search" >
               
-                <button class="searchBtn" (click)="getValue(searchInput)"><i class="search icon"></i></button>
+                <button class="searchBtn" (click)="getValue(searchInput)">Buscar</button>
               </div>
         </form>
     </div> 
