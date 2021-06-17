@@ -1,0 +1,128 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1 
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+.box 
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -20%);
+}
+
+.searchInput{
+  padding: 6px;
+  padding-left: 15px;
+  outline: none;
+  font-size: 1.3em;
+  width: 35em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  margin-top: -10px;
+  background: black;
+  color: #ada7a7;
+  border: 1px solid #454343;
+}
+
+.searchBtn{
+  cursor: pointer;
+  padding: 8px;
+  margin-top: -11px;
+  width: 5em;
+  margin-left: -1px;
+  color: #767171;
+  border: 1px solid #454343;
+  background: #353434;
+  border: 1px solid #353434;
+}
+
+.searchBtn:focus{
+  outline: none;
+}
+
+.searchBtn:hover{
+  color:#9b9494;
+}
+ /* .searchInput{
+    padding: 6px;
+    padding-left: 15px;
+    outline: none;
+    font-size: 1.3em;
+    width: 35em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600; 
+    margin-top: -10px;
+    background: white;
+    color: black;
+    border: none;
+  }  */
+  
+  /* .searchBtn{
+    cursor: pointer;
+    padding: 8px;
+    margin-top: -11px;
+    width: 5em;
+    margin-left: -1px;
+    color: #767171;
+    border: 1px solid #454343;
+    background: #353434;
+    border: 1px solid #353434;
+  }
+  
+  .searchBtn:focus{
+    outline: none;
+  }
+  
+  .searchBtn:hover{
+    color:#9b94
+  }  */
+
+/* .search
+{
+    cursor: pointer;
+    position:relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+
+    background: #fff; 
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+} */
+
+/* .search
+{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #051937;
+    color: #fff; 
+} 
+.search:hover
+{
+    background: #A8EB12;
+}  */
